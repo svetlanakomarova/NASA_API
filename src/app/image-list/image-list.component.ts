@@ -15,7 +15,7 @@ export class ImageListComponent implements OnInit {
   responseObject: any = { photos: [] };
   loading: boolean = false;
 
-  gridColumns = 3;
+  gridColumns = 4;
 
   constructor(private httpService: HttpService,
     public dialog: MatDialog) { }
