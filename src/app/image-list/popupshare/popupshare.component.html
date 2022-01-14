@@ -1,0 +1,11 @@
+<div mat-dialog-content>
+  <img src="{{data}}" width="120">
+  <button mat-button (click)="onCancel()" style="float: right;">
+    Cancel
+  </button>
+</div>
+
+<div mat-dialog-actions>
+  <share-buttons [theme]="'material-dark'" [include]="['facebook','twitter','linkedin','email']" [show]="4"
+    url="{{data}}" [autoSetMeta]="false"></share-buttons>
+</div>
