@@ -12,7 +12,7 @@
 
 <div class="content">
   <div fxLayout="row wrap" fxLayoutGap="12px" grid>
-    <div *ngFor="let photo of responseObject.photos; let i = index" [fxFlex]="(100/(gridColumns + 0.3)) + '%'"
+    <div *ngFor="let photo of responseObject.photos; let i = index" [fxFlex]="(100/(gridColumns + 0.6)) + '%'"
       fxFlex.xs="100%" fxFlex.sm="33%">
       <mat-card class="mat-elevation-z4">
         <!--
